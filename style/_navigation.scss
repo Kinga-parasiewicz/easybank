@@ -1,0 +1,49 @@
+@use 'variables.scss';
+
+.main-navigation{
+left:0;
+right:0;
+top:0;
+padding:20px;
+padding-bottom:0px ;
+position: sticky;
+background-color: rgb(247, 247, 247);
+.main-navigation__inner{
+display: flex;
+justify-content: space-around;
+align-items: center;
+.main-navigation__logo-link{
+margin-top: -3px;
+display: block;
+}
+.main-navigation__menu{
+display: flex;
+justify-content: space-between;
+margin-bottom:0px;
+margin-top:0px;
+.main-navigation__menu-item{
+margin-right: 40px;
+padding-bottom: 16px;
+list-style-type: none;
+color:gray;
+font-size: 15px;
+cursor:pointer;
+}
+.main-navigation__menu-item:hover{
+    border-bottom:3px solid rgb(27, 194, 27);
+    color:black;
+   z-index: 100;
+}
+
+
+}
+.main-navigation__button{
+    background:linear-gradient( to right, $primaryColor, $secondaryColor);
+    padding:12px 25px;
+    color:white;
+    border:none;
+border-radius:5rem;
+margin-bottom:10px;
+    }
+}
+};

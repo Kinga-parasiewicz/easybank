@@ -1,3 +1,66 @@
+.main-navigation {
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 20px;
+  padding-bottom: 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #f7f7f7;
+}
+
+.main-navigation .main-navigation__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-navigation .main-navigation__inner .main-navigation__logo-link {
+  margin-top: -3px;
+  display: block;
+}
+
+.main-navigation .main-navigation__inner .main-navigation__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.main-navigation .main-navigation__inner .main-navigation__menu .main-navigation__menu-item {
+  margin-right: 40px;
+  padding-bottom: 16px;
+  list-style-type: none;
+  color: gray;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.main-navigation .main-navigation__inner .main-navigation__menu .main-navigation__menu-item:hover {
+  border-bottom: 3px solid #1bc21b;
+  color: black;
+  z-index: 100;
+}
+
+.main-navigation .main-navigation__inner .main-navigation__button {
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  padding: 12px 25px;
+  color: white;
+  border: none;
+  border-radius: 5rem;
+  margin-bottom: 10px;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
