@@ -1,4 +1,4 @@
-@use 'variables.scss';
+@import 'variables';
 
 .main-navigation{
 left:0;
@@ -38,11 +38,7 @@ cursor:pointer;
 
 }
 .main-navigation__button{
-    background:linear-gradient( to right, $primaryColor, $secondaryColor);
-    padding:12px 25px;
-    color:white;
-    border:none;
-border-radius:5rem;
+    @include buttons;
 margin-bottom:10px;
     }
 }

@@ -1,3 +1,11 @@
-$primaryColor:hsl(136, 65%, 51%);
+$primaryColor: hsl(136, 65%, 51%);
 $secondaryColor:hsl(192, 70%, 51%);
-$thirdColor:hsl(233, 26%, 24%);
+
+
+@mixin buttons{
+    background:linear-gradient( to right, $primaryColor , $secondaryColor );
+    padding:12px 25px;
+    color:white;
+    border:none;
+border-radius:5rem;
+}
