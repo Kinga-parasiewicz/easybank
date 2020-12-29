@@ -21,10 +21,11 @@
 }
 
 .main-navigation .main-navigation__inner .main-navigation__logo-link {
-  margin-top: -3px;
-  padding-left: 40px;
+  margin-top: 0px;
+  padding-left: 0px;
   display: block;
   text-decoration: none;
+  color: #9698a6;
 }
 
 .main-navigation .main-navigation__inner .main-navigation__menu {
@@ -44,6 +45,7 @@
   list-style-type: none;
   color: #9698a6;
   font-size: 15px;
+  text-decoration: none;
   cursor: pointer;
 }
 

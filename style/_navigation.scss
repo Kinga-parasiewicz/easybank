@@ -13,10 +13,11 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 .main-navigation__logo-link{
-margin-top: -3px;
-padding-left:40px;
+margin-top: 0px;
+padding-left:0px;
 display: block;
 text-decoration: none;
+color:$fontColor;
 }
 .main-navigation__menu{
 display: flex;
@@ -29,6 +30,7 @@ padding-bottom: 16px;
 list-style-type: none;
 color:$fontColor;
 font-size: 15px;
+text-decoration: none;
 cursor:pointer;
 }
 .main-navigation__menu-item:hover{
