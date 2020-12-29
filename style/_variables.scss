@@ -1,6 +1,6 @@
 $primaryColor: hsl(136, 65%, 51%);
 $secondaryColor:hsl(192, 70%, 51%);
-
+$fontColor:hsl(233, 8%, 62%);
 
 @mixin buttons{
     background:linear-gradient( to right, $primaryColor , $secondaryColor );
@@ -8,4 +8,10 @@ $secondaryColor:hsl(192, 70%, 51%);
     color:white;
     border:none;
 border-radius:5rem;
+}
+
+@mixin contains{
+    max-width: 1100px;
+    width:90%;
+    margin:0px auto;
 }

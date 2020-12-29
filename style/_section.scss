@@ -1,6 +1,11 @@
 .why-section{
-background-color: #f3f2f2;
-padding:30px 106px;
+margin:0 auto;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left:160px;
+background-color: hsl(220, 16%, 96%);
+
+
 position: relative;
 z-index: -1;
 
@@ -11,7 +16,7 @@ margin-bottom: 40px;
 }
 .why-section__text{
     max-width: 400px;
-    color:hsl(233, 26%, 24%);
+    color: hsl(233, 26%, 24%);
 }
 .why-reason{
 display: flex;
@@ -20,7 +25,18 @@ display: flex;
 margin-right: 45px;
 width:250px;
 margin-top: 30px;
+
+.why-reason__header{
+font-weight: 300;
+
+}
+
+.why-reason__text{
+color: hsl(240, 1%, 45%);
+font-size: 15px;
 }
 }
 
 }
+
+};

@@ -1,0 +1,41 @@
+.footer-nav__container{
+background-color:hsl(233, 26%, 24%) ;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding-top: 30px;
+padding-bottom: 50px;
+.footer-nav__logo{
+.footer-nav__logo-image{
+padding-left: 30px;
+}
+.icon{
+    padding-right: 5px;
+
+        }
+}
+
+
+.footer-nav__footer{
+margin-left:-15px;
+.footer-nav__items{
+.item{
+color: white;
+list-style-type: none;
+padding: 3px
+}
+}
+}
+.footer-nav__elements{
+margin-right: 30px;
+    .footer-nav__button{
+    @include buttons;
+}
+    .footer-nav__text{
+    color: $fontColor;
+    font-size: 12px;
+
+
+        }
+}
+}

@@ -1,4 +1,5 @@
 .main-banner{
+@include contains;
 margin-top: 5px;
 height:700px;
 background-image: url(../images/bg-intro-desktop.svg);
@@ -11,7 +12,8 @@ display:flex;
 flex-direction: row;
 .main-banner__general{
 max-width:450px;
-margin: 159px 106px;
+margin-top: 159px;
+margin-right: 100px;
 display: block;
 
 .main-banner__header{

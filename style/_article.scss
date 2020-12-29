@@ -1,0 +1,38 @@
+.article-container{
+@include contains;
+.article-container__header{
+font-weight: 300;
+margin-top: 50px;
+}
+.article-container__text{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+
+
+.article-container__item{
+    max-width:260px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: hsl(0, 0%, 98%);
+border-radius: 8px;
+
+.article-container__item-image{
+max-width: 260px;
+border-radius: 8px;
+}
+.article-container__item-name{
+color: $fontColor;
+padding:25px 10px;
+}
+.article-container__item-header{
+padding-left: 10px;
+}
+.article-container__item-text{
+    color: $fontColor;
+padding:10px 10px;
+font-size: 14px;
+}
+}
+}
+}
