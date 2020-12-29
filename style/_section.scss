@@ -4,8 +4,6 @@ padding-top: 30px;
 padding-bottom: 30px;
 padding-left:160px;
 background-color: hsl(220, 16%, 96%);
-
-
 position: relative;
 z-index: -1;
 
@@ -40,3 +38,38 @@ font-size: 15px;
 }
 
 };
+
+@media(max-width:767px){
+.why-section{
+margin-right: -210px;
+padding-right: 85px;
+padding-left: 10px;
+text-align:left;
+.why-section__header{
+font-size: 28px;
+padding-left: 8px;
+}
+.why-section__text{
+max-width: 300px;
+padding-left: 15px;
+    }
+}
+.why-reason{
+flex-direction: column;
+max-width: 400px;
+padding-left: 40px;
+}
+}
+
+
+@media(min-width:768px){
+    .why-section{
+    padding-left: 70px;
+    }
+    }
+
+    @media(min-width:1025px){
+        .why-section{
+        padding-left: 160px;
+        }
+        }

@@ -39,3 +39,24 @@ margin-right: 30px;
         }
 }
 }
+
+@media(max-width:767px){
+.footer-nav__container{
+flex-direction: column;
+.footer-nav__logo{
+    .footer-nav__logo-image{
+    padding-left: 10px;
+    }
+
+
+}
+.footer-nav__footer{
+    text-align: center;
+}
+.footer-nav__logo-image{
+    padding-left: 0px;
+    }
+.footer-nav__elements{
+margin-right: -10px;
+}
+}}
