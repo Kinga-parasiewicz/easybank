@@ -6,6 +6,8 @@ The website is responsive.
 # Demo
 https://kinga-parasiewicz.github.io/easybank/
 
+![](Easybank-page-fvdf.gif)
+
 # Technologies
 - JS
 - HTML
