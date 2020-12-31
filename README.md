@@ -1,7 +1,9 @@
 
 # Easybank
 website design downloaded from the frontend mentor website.
-The website is responsive.
+I carry out projects by learning technology. 
+On this website you can freely navigate the website on your computer and phone,
+the navigation has been adapted to mobile devices.
 
 # Demo
 https://kinga-parasiewicz.github.io/easybank/
